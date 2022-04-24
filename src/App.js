@@ -1,6 +1,7 @@
 import React from "react";
+import Dropdown from "./component/Dropdown";
 // import Accordion from "./component/Accordion";
-import Search from "./component/Search";
+// import Search from "./component/Search";
 
 // const items = [
 //   { title: "What is React?", content: "React is a frontend framework" },
@@ -13,11 +14,19 @@ import Search from "./component/Search";
 //     content: "A ton of engineers since it's favouraited amongst them",
 //   },
 // ];
+
+const options = [
+  { label: "The Color Red", value: "red" },
+  { label: "The Color Green", value: "green" },
+  { label: "The Color Blue", value: "blue" },
+];
+
 const App = () => {
   return (
     <div>
       {/* <Accordion items={items} /> */}
-      <Search />
+      {/* <Search /> */}
+      <Dropdown options={options} />
     </div>
   );
 };
