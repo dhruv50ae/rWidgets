@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Dropdown from "./component/Dropdown";
+// import Dropdown from "./component/Dropdown";
+import Translate from "./component/Translate";
 // import Accordion from "./component/Accordion";
 // import Search from "./component/Search";
 
@@ -15,23 +16,24 @@ import Dropdown from "./component/Dropdown";
 //   },
 // ];
 
-const options = [
-  { label: "The Color Red", value: "red" },
-  { label: "The Color Green", value: "green" },
-  { label: "The Color Blue", value: "blue" },
-];
+// const options = [
+//   { label: "The Color Red", value: "red" },
+//   { label: "The Color Green", value: "green" },
+//   { label: "The Color Blue", value: "blue" },
+// ];
 
 const App = () => {
-  const [selected, setSelected] = useState(options[0]);
+  // const [selected, setSelected] = useState(options[0]);
   return (
     <div>
       {/* <Accordion items={items} /> */}
       {/* <Search /> */}
-      <Dropdown
+      {/* <Dropdown
         selected={selected}
         setSelected={setSelected}
         options={options}
-      />
+      /> */}
+      <Translate />
     </div>
   );
 };
