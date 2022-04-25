@@ -16,26 +16,12 @@ const items = [
   },
 ];
 
-const showAccordion = () => {
-  if (window.location.pathname === "/") {
-    return <Accordion items={items} />;
-  }
-};
-
-const showList = () => {
-  if (window.location.pathname === "/list") {
-    return <Search />;
-  }
-};
-
 const App = () => {
   return (
     <div>
       <Header />
       <Route path="/">
         <Accordion items={items} />
-        {/* {showAccordion()}
-        {showList()} */}
       </Route>
       <Route path="/list">
         <Search />
