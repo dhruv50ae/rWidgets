@@ -1,5 +1,6 @@
 import React from "react";
 import Accordion from "./component/Accordion";
+import Header from "./component/Header";
 import Search from "./component/Search";
 
 const items = [
@@ -29,6 +30,7 @@ const showList = () => {
 const App = () => {
   return (
     <div>
+      <Header />
       {showAccordion()} {showList()}
     </div>
   );
