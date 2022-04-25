@@ -1,6 +1,7 @@
 import React from "react";
 import Accordion from "./component/Accordion";
 import Header from "./component/Header";
+import Route from "./component/Route";
 import Search from "./component/Search";
 
 const items = [
@@ -31,7 +32,14 @@ const App = () => {
   return (
     <div>
       <Header />
-      {showAccordion()} {showList()}
+      <Route path="/">
+        <Accordion items={items} />
+        {/* {showAccordion()}
+        {showList()} */}
+      </Route>
+      <Route path="/list">
+        <Search />
+      </Route>
     </div>
   );
 };
