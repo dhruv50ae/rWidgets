@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# React Widgets
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Demonstrating abilities of using routing, functional components, API consumption, and more. This application has a more basic design compared to previous ones. 
+- The code is more impressive!
 
-## Available Scripts
+## Images
 
-In the project directory, you can run:
+<img src = "https://cdn.discordapp.com/attachments/229247596571525120/973566523916570644/unknown.png" />
+<img src = "https://cdn.discordapp.com/attachments/229247596571525120/973566612449919056/unknown.png" />
+<img src = "https://cdn.discordapp.com/attachments/229247596571525120/973566469717758004/unknown.png" />
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Uses Axios, Props, UseEffect, UseState, Fragments
+- Very clean and easy UX/UI
+- The Wikipedia API is used
+- Open to CORS, used dangerously close HTML
+- Dispite the fact that Wikipedia is a trusted website, it can still make searching Wikipedia a cyber security problem
+- Clean up UseEffect function is used for the popstate event
+- Does not use React Router, yet
+- This also uses a timeout to stop multiple searches very quickly. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## What I learnt
 
-### `npm test`
+- Basics of routing ✅
+- Understood different types of routing ✅
+- Conditional rendering ✅
+- Inline rendering ✅
+- Organising files ✅
+- Window default states ✅
+- Hooks and Refs ✅
+- State ✅
+- API Throttling ✅
+- SPAs ✅
+- Debugging using StackOverflow, Google, and Youtube ✅
+## How To Use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- For the Accordion, you can click to open and close an accordion. This uses event listeners to see where you cliked and which one should be opened or closed. 
+- For the Search, type in a term into the Search Bar to send a request to Wikipedia which fetches the term and snippet. 
+- Hit Go to navigate to that term's page. 
+## Author Info
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [LinkedIn](https://www.linkedin.com/in/dhruv50ae/)
+- [Instagram](https://www.instagram.com/frostascode/)
